@@ -1,3 +1,3 @@
 FROM  thiagofalcao/opencv3
 RUN pip install scipy Pillow 
-RUN apt-get install -y python-skimage
+RUN apt-get update && apt-get install -y python-skimage
